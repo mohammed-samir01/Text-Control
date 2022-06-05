@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+  <p id="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .</p>
+</div>
+<div id="control">
+    <div class="section1">
+        <h4>Font Family</h4>
+        <input onclick="fontFamily();"  type="radio" id="verdana" name="fontFamily" value="verdana">
+        <label for="verdana">verdana</label><br>
+        <input onclick="fontFamily();"  type="radio" id="andalus" name="fontFamily" value="Andalus">
+        <label for="andalus">Andalus</label><br>
+        <input onclick="fontFamily();"  type="radio" id="dosis" name="fontFamily" value="Dosis">
+        <label for="dosis">Dosis</label><br>
+        <input onclick="fontFamily();"  type="radio" id="Aldhabi" name="fontFamily" value="Aldhabi">
+        <label for="Aldhabi">Aldhabi</label><br>
+        <input onclick="fontFamily();"  type="radio" id="Century" name="fontFamily" value="Century">
+        <label for="Century">Century</label><br>
+        <input onclick="fontFamily();"  type="radio" id="Zeytoon" name="fontFamily" value="Zeytoon">
+        <label for="Zeytoon">Zeytoon</label>
+    </div>
+    <div class="section2">
+        <h4>Text Align</h4>
+        <input onclick="textAlign();"  type="radio" id="Left" name="textAlign" value="Left">
+        <label for="Left">Left</label><br>
+        <input onclick="textAlign();"  type="radio" id="Center" name="textAlign" value="Center">
+        <label for="Center">Center</label><br>
+        <input onclick="textAlign();"  type="radio" id="Right" name="textAlign" value="Right">
+        <label for="Right">Right</label><br>
+    </div>
+    <div class="section3">
+        <h4>Line High</h4>
+        <input onclick="lineHeigh();"  type="radio" id="normal" name="lineHeigh" value="normal">
+        <label for="normal">Normal</label><br>
+        <input onclick="lineHeigh();"  type="radio" id="10pxx" name="lineHeigh" value="10px">
+        <label for="10pxx">10PX</label><br>
+        <input onclick="lineHeigh();"  type="radio" id="20px" name="lineHeigh" value="20px">
+        <label for="20px">20PX</label><br>
+        <input onclick="lineHeigh();"  type="radio" id="30px" name="lineHeigh" value="30px">
+        <label for="30px">30PX</label><br>
+        <input onclick="lineHeigh();"  type="radio" id="40px" name="lineHeigh" value="40px">
+        <label for="40px">40PX</label><br>
+    </div>
+    <div class="section4">
+        <h4>Letter Spacing</h4>
+        <input onclick="letterSpacing();"  type="radio" id="normal1" name="letterSpacing" value="normal">
+        <label for="normal1">Normal</label><br>
+        <input onclick="letterSpacing();"  type="radio" id="5px" name="letterSpacing" value="5px">
+        <label for="5px">5PX</label><br>
+        <input onclick="letterSpacing();"  type="radio" id="7px" name="letterSpacing" value="7px">
+        <label for="7px">7PX</label><br>
+        <input onclick="letterSpacing();"  type="radio" id="9px" name="letterSpacing" value="9px">
+        <label for="9px">9PX</label><br>
+        <input onclick="letterSpacing();"  type="radio" id="10px" name="letterSpacing" value="10px">
+        <label for="10px">10PX</label><br>
+    </div>
+    <div class="section5">
+        <h4>Text Transform</h4>
+        <input onclick="textTransform();"  type="radio" id="none" name="textTransform" value="none">
+        <label for="none">None</label><br>
+        <input onclick="textTransform();"  type="radio" id="uppercase" name="textTransform" value="uppercase">
+        <label for="uppercase">Uppercase</label><br>
+        <input onclick="textTransform();"  type="radio" id="lowercase" name="textTransform" value="lowercase">
+        <label for="lowercase">Lowercase</label><br>
+        <input onclick="textTransform();"  type="radio" id="capitalize" name="textTransform" value="capitalize">
+        <label for="capitalize">Capitalize</label><br>
+    </div>
+    <div class="section6">
+        <h4>Border Style</h4>
+        <input onclick="borderStyle();"  type="radio" id="nonee" name="borderStyle" value="none">
+        <label for="nonee">None</label><br>
+        <input onclick="borderStyle();"  type="radio" id="solid" name="borderStyle" value="solid">
+        <label for="solid">Solid</label><br>
+        <input onclick="borderStyle();"  type="radio" id="dotted" name="borderStyle" value="dotted">
+        <label for="dotted">Dotted</label><br>
+        <input onclick="borderStyle();"  type="radio" id="groove" name="borderStyle" value="groove">
+        <label for="groove">Groove</label><br>
+        <input onclick="borderStyle();"  type="radio" id="ridge" name="borderStyle" value="ridge">
+        <label for="ridge">Ridge</label><br>
+        <input onclick="borderStyle();"  type="radio" id="dashed" name="borderStyle" value="dashed">
+        <label for="dashed">Dashed</label><br>
+    </div>
+    <div class="section7">
+        <h4>Border Style</h4>
+        <input onclick="backgroundColor();"  type="radio" id="cyan" name="backgroundColor" value="cyan">
+        <label for="cyan">Cyan</label><br>
+        <input onclick="backgroundColor();"  type="radio" id="blue" name="backgroundColor" value="blue">
+        <label for="blue">Blue</label><br>
+        <input onclick="backgroundColor();"  type="radio" id="red" name="backgroundColor" value="red">
+        <label for="red">Red</label><br>
+        <input onclick="backgroundColor();"  type="radio" id="coral" name="backgroundColor" value="coral">
+        <label for="coral">Coral</label><br>
+        <input onclick="backgroundColor();"  type="radio" id="brown" name="backgroundColor" value="brown">
+        <label for="brown">Brown</label><br>
+        <input onclick="backgroundColor();"  type="radio" id="green" name="backgroundColor" value="green">
+        <label for="green">Green</label><br>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

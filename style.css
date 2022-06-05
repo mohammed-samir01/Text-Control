@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#container
+{
+    width: 80%;
+    margin: 50px auto;
+    height: 100px;
+}
+#text
+{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#control
+{
+    padding: 10px;
+    border: 1px solid black;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    border-radius: 30px 0px;
+    margin: 150px auto;
+}
+#control:hover
+{
+    background-color: bisque;
+
+}
+
+h4
+{
+    color:darkblue;
+    font-family:Century;
+    margin-bottom: 5px;
+
+}
